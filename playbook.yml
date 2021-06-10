@@ -13,10 +13,10 @@
         enabled: True
     - name: Deploy static website
       copy:
-        src: index1.html
-        dest: /var/www/html/html/
-        src: styles.css
-        dest: /var/www/html/html/
-        src: images/
-        dest: /var/www/html/html/
+        src1: index1.html
+        dest1: /var/www/html/html/
+        src1: styles.css
+        dest1: /var/www/html/html/
+        src1: images/
+        dest1: /var/www/html/html/
 ...
